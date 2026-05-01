@@ -31,7 +31,7 @@ export default function Register() {
               id="reg-name"
               type="text"
               className="form-input"
-              placeholder="Jane Doe"
+              placeholder="Enter your name"
               value={form.name}
               onChange={e => setForm(p => ({ ...p, name: e.target.value }))}
               required
