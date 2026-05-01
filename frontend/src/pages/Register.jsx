@@ -19,7 +19,7 @@ export default function Register() {
     <div className="auth-page">
       <div className="auth-card">
         <div className="auth-logo">
-          <h1>TaskFlow</h1>
+          <h1>TaskSpace</h1>
           <p>Create your account</p>
         </div>
         {/* Removed first user admin message */}

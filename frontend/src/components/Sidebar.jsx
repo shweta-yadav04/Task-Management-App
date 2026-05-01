@@ -22,7 +22,7 @@ export default function Sidebar() {
       {/* Logo */}
       <div className="sidebar-logo">
         <div className="sidebar-logo-icon">T</div>
-        <span className="sidebar-logo-text">TaskFlow</span>
+        <span className="sidebar-logo-text">TaskSpace</span>
       </div>
 
       {/* Navigation */}

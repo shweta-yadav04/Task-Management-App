@@ -19,7 +19,7 @@ export default function Login() {
     <div className="auth-page">
       <div className="auth-card">
         <div className="auth-logo">
-          <h1>TaskFlow</h1>
+          <h1>TaskSpace</h1>
           <p>Sign in to your workspace</p>
         </div>
         {error && <div className="alert alert-error">{error}</div>}

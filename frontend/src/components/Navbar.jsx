@@ -11,7 +11,7 @@ const titles = {
 export default function Navbar() {
   const { pathname } = useLocation();
   const { user, isAdmin } = useAuth();
-  const title = Object.entries(titles).find(([k]) => pathname.startsWith(k))?.[1] || 'TaskFlow';
+  const title = Object.entries(titles).find(([k]) => pathname.startsWith(k))?.[1] || 'TaskSpace';
   const initials = user?.name?.split(' ').map(w => w[0]).join('').toUpperCase().slice(0, 2) || '?';
 
   return (
