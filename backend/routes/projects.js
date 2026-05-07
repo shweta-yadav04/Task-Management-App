@@ -19,6 +19,7 @@ router.route('/')
 router.route('/:id')
   .get(getProject)
   .patch(requireRole('admin'), updateProject)
+  .put(requireRole('admin'), updateProject)
   .delete(requireRole('admin'), deleteProject);
 
 router.post('/:id/members', requireRole('admin'), addMember);
